@@ -1,0 +1,107 @@
+{
+        "actividad": {
+
+                "hoy": [
+                        {
+                                "id": 64,
+                                "titulo": "Pago nóminas",
+                                "cantidad": -1000
+                        },
+                        {
+                                "id": 63,
+                                "titulo": "Beca estudiante",
+                                "cantidad": 799
+                        },
+                        {
+                                "id": 62,
+                                "titulo": "Devolución Hacienda",
+                                "cantidad": 25555
+                        }
+                ],
+
+                "ayer": [
+                        {
+                                "id": 61,
+                                "titulo": "Beca transporte",
+                                "cantidad": 100.000
+                        },
+                        {
+                                "id": 60,
+                                "titulo": "Recibo nómina",
+                                "cantidad": 1000000
+                        },
+                        {
+                                "id": 59,
+                                "titulo": "Pago nóminas",
+                                "cantidad": 23567
+                        },
+                        {
+                                "id": 58,
+                                "titulo": "Pago Hacienda",
+                                "cantidad": -2456
+                        },
+                        {
+                                "id": 57,
+                                "titulo": "Pago alquiler",
+                                "cantidad": 23567
+                        },
+                        {
+                                "id": 56,
+                                "titulo": "Pago nóminas",
+                                "cantidad": 12745
+                        },
+                        {
+                                "id": 55,
+                                "titulo": "Pago Hacienda",
+                                "cantidad": -2456
+                        },
+                        {
+                                "id": 54,
+                                "titulo": "Pago alquiler",
+                                "cantidad": -76553
+                        },
+                        {
+                                "id": 53,
+                                "titulo": "Pago nóminas",
+                                "cantidad": 23567
+                        },
+                        {
+                                "id": 52,
+                                "titulo": "Pago Hacienda",
+                                "cantidad": -2456
+                        },
+                        {
+                                "id": 51,
+                                "titulo": "Pago alquiler",
+                                "cantidad": -23567
+                        },
+                        {
+                                "id": 50,
+                                "titulo": "Pago nóminas",
+                                "cantidad": 34733458
+                        },
+                        {
+                                "id": 49,
+                                "titulo": "Pago Hacienda",
+                                "cantidad": 2456
+                        },
+                        {
+                                "id": 48,
+                                "titulo": "Pago alquiler",
+                                "cantidad": -23567
+                        }
+                ]
+
+        },
+        
+        "necesidades": [
+                {
+                        "entrada": "Comprar ordenadores",
+                        "url": "./src/assets/icons/compraPC.png"
+                },
+                {
+                        "entrada": "Comprar servicios",
+                        "url": "./src/assets/icons/compraPC.png"
+                }
+        ]
+}

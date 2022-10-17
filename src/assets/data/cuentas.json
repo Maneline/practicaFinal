@@ -1,0 +1,63 @@
+{
+    "cuentas": [
+        {
+            "titulo": "Pago nóminas",
+            "codigo": "*5493",
+            "cantidad": 1987765.09,
+            "disponible": 9087,
+            "movimientos": 3
+        },
+        {
+            "titulo": "Pago impuestos",
+            "codigo": "*7354",
+            "cantidad": 1602354.69,
+            "disponible": 6087,
+            "movimientos": 7
+        },
+        {
+            "titulo": "Pago alquiler",
+            "codigo": "*5493",
+            "cantidad": 1603923.70,
+            "disponible": 6189,
+            "movimientos": 1
+        }
+    ],
+    "tarjetas": [
+        {
+            "titular": "Manuel Fernández Ruiz",
+            "codigo": 7354,
+            "dinero": 90000,
+            "objetivo": 120000
+        },
+        {
+            "titular": "María Salas López",
+            "codigo": 8498,
+            "dinero": 75000,
+            "objetivo": 100000
+        },
+        {
+            "titular": "Manuel Fernández Ruiz",
+            "codigo": 7354,
+            "dinero": 90000,
+            "objetivo": 120000
+        },
+        {
+            "titular": "María Salas López",
+            "codigo": 8498,
+            "dinero": 75000,
+            "objetivo": 100000
+        },
+        {
+            "titular": "Manuel Fernández Ruiz",
+            "codigo": 7354,
+            "dinero": 90000,
+            "objetivo": 120000
+        },
+        {
+            "titular": "María Salas López",
+            "codigo": 8498,
+            "dinero": 75000,
+            "objetivo": 100000
+        }
+    ]
+}

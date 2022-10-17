@@ -1,0 +1,21 @@
+{
+    "menu": [
+        {
+            "id": 0,
+            "titulo": "Cuentas y tarjetas"
+        },
+        {
+            "id": 1,
+            "titulo": "Financiación"
+        },
+        {
+            "id": 2,
+            "titulo": "Comercio exterior"
+        },
+        {
+            "id": 3,
+            "titulo": "Cobros y pagos"
+        }
+    ]
+
+}

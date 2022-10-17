@@ -1,0 +1,38 @@
+<nav>
+        <ul>     
+                <li> <a (click)="mostrarPagina('')"> {{ Data['menu'][0].titulo }} </a> </li>
+
+                <li> <a [routerLink]="['/financiacion']"> {{ Data['menu'][1].titulo }} </a> </li>
+
+                <li> <a (click)="mostrarPagina('comercio')"> {{ Data['menu'][2].titulo }} </a> </li>
+
+                <li>
+                        <img src="../../../../assets/icons/carpetita.png" alt="Icono de gráficas">
+
+                        <a (click)="mostrarPagina('cobros')"> {{ Data['menu'][3].titulo }} </a>
+                </li>
+        </ul>
+</nav>
+
+
+<!-- <nav class="nav-test">
+    <div class="nav-container">
+
+        <ul>     
+            <li class="nav-li active-nav"> <a (click)="mostrarPagina('')"> {{ Data['menu'][0].titulo }} </a> </li>
+            
+            <li class="nav-li"> <a [routerLink]="['/financiacion']"> {{ Data['menu'][1].titulo }} </a> </li>
+            
+            <li class="nav-li"> <a (click)="mostrarPagina('comercio')"> {{ Data['menu'][2].titulo }} </a> </li>
+            
+            <li class="nav-li">
+                <img src="../../../../assets/icons/carpetita.png" alt="Icono de gráficas">
+                
+                <a (click)="mostrarPagina('cobros')"> {{ Data['menu'][3].titulo }} </a>
+            </li>
+        </ul>
+        <div id="linea">
+
+        </div>
+    </div>
+</nav>  -->

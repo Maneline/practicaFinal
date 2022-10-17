@@ -1,0 +1,6 @@
+{
+        "workbench.tree.indent": 32,
+"workbench.tree.renderIndentGuides": "always",
+"editor.detectIndentation": false,
+"editor.tabSize": 4
+}

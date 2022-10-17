@@ -1,0 +1,12 @@
+
+<div class="dinero">
+
+        <div *ngFor="let item of Data['summary']; let i = index;" class="dinero__{{Data['summary'][i].titulo}}">
+
+                <p class="texto"> {{ item.titulo }} </p>
+
+                <p class="cantidad azul"> {{ (item.cantidad | currency:"EUR":"symbol") | euros: true }} </p>
+                
+        </div>
+
+</div>

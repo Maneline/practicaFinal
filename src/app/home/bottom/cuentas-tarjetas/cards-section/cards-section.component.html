@@ -1,0 +1,41 @@
+<section class="tarjetas">
+
+    <div class="tarjetas__title">
+
+        <app-dashboard-filters titulo="{{ titulo }}"></app-dashboard-filters>
+
+    </div>
+
+    <div class="tarjetas__resultados">
+
+
+        <div *ngFor="let item of Data['tarjetas']; let i = index;" class="tarjetas__resultados__card">
+
+            <div class="tarjetas__resultados__card--img">
+
+                <img src="../../../../../assets/icons/tarjetita.png" alt="Imagen de tarjeta de crédito">
+
+            </div>
+
+            <div class="tarjetas__resultados__card--titular">
+                <p> {{ item.titular }} </p>
+            </div>
+
+            <div class="tarjetas__resultados__card--numero">
+                <p> ...{{ item.codigo }} </p>
+            </div>
+
+            <div class="tarjetas__resultados__card--porcentaje">
+                <div>
+                    <p> {{ (item.dinero | currency:"EUR":"symbol") | euros }} </p>
+                    <p class="gris"> /  {{ (item.objetivo | currency:"EUR":"symbol") | euros }} </p>
+                </div>
+                <img src="../../../../../assets/icons/barra.png" alt="Barra de porcentaje">
+            </div>
+
+        </div>
+
+
+    </div>
+
+</section>

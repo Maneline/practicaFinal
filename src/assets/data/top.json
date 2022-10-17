@@ -1,0 +1,35 @@
+{
+    "welcome": "Manuel",
+    "favorites": [
+        {
+            "id": 0,
+            "titulo": "Transferencias"
+        },
+        {
+            "id": 1,
+            "titulo": "Traspasos"
+        },
+        {
+            "id": 2,
+            "titulo": "Ficheros"
+        }
+    ],
+    "summary": [
+        {
+            "id": 0,
+            "titulo": "saldo-cuentas",
+            "cantidad": 153000
+        },
+        {
+            "id": 1,
+            "titulo": "ahorro-inversion",
+            "cantidad": 100000
+        },
+        {
+            "id": 2,
+            "titulo": "financiacion",
+            "cantidad": 50000
+        }
+    ]
+
+}
