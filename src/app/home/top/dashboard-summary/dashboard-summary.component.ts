@@ -2,9 +2,6 @@ import { Component } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 
-import { EurosPipe } from '../../../shared/pipes/euros.pipe';
-import { SaludoPipe } from '../../../shared/pipes/saludo.pipe';
-
 import { TopInterface } from './../top.interface';
 
 @Component({

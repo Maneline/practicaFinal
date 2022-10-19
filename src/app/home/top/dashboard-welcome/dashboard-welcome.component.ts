@@ -9,6 +9,7 @@ import { TopInterface } from './../top.interface';
     templateUrl: './dashboard-welcome.component.html',
     styleUrls: ['./dashboard-welcome.component.scss']
 })
+
 export class DashboardWelcomeComponent {
 
     fecha: Date = new Date();

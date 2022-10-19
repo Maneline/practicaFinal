@@ -15,7 +15,7 @@
 
                 <img src="../../../../../assets/icons/tarjetita.png" alt="Imagen de tarjeta de crédito">
 
-            </div>
+            </div> 
 
             <div class="tarjetas__resultados__card--titular">
                 <p> {{ item.titular }} </p>
@@ -27,14 +27,13 @@
 
             <div class="tarjetas__resultados__card--porcentaje">
                 <div>
-                    <p> {{ (item.dinero | currency:"EUR":"symbol") | euros }} </p>
-                    <p class="gris"> /  {{ (item.objetivo | currency:"EUR":"symbol") | euros }} </p>
+                    <p> {{ (item.dinero | currency:"EUR":"symbol") }} </p>
+                    <p class="gris"> /  {{ (item.objetivo | currency:"EUR":"symbol") }} </p>
                 </div>
                 <img src="../../../../../assets/icons/barra.png" alt="Barra de porcentaje">
             </div>
 
         </div>
-
 
     </div>
 

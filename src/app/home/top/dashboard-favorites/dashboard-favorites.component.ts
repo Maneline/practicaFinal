@@ -1,13 +1,16 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 
 import { TopInterface } from './../top.interface';
+
+
 @Component({
   selector: 'app-dashboard-favorites',
   templateUrl: './dashboard-favorites.component.html',
   styleUrls: ['./dashboard-favorites.component.scss']
 })
+
 export class DashboardFavoritesComponent {
 
     datos!: TopInterface;

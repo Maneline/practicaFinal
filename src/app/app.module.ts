@@ -9,16 +9,24 @@ import { HomeModule } from './home/home.module';
 
 import { AppComponent } from './app.component';
 
+import { EurosPipe } from './shared/pipes/euros.pipe';
+import { SaludoPipe } from './shared/pipes/saludo.pipe';
+
+
 @NgModule({
   declarations: [
     AppComponent
-  ],
+],
   imports: [
     BrowserModule,
+    HttpClientModule,
     AppRoutingModule,
     SharedModule,
-    HomeModule,
-    HttpClientModule
+    HomeModule
+  ],
+  exports: [
+    EurosPipe,
+    SaludoPipe
   ],
   providers: [],
   bootstrap: [AppComponent]

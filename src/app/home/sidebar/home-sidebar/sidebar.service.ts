@@ -9,6 +9,7 @@ export class SidebarService {
     info: any = [];
 
     constructor(private http: HttpClient) {
+        
         http.get("../../../../assets/data/sidebar.json")
             .subscribe(resp => {
                 this.info = resp;

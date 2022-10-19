@@ -4,6 +4,7 @@ import { Injectable } from '@angular/core';
 @Injectable({
     providedIn: 'root'
 })
+
 export class MenuService {
 
     info: any = [];
@@ -18,30 +19,3 @@ export class MenuService {
     }
 }
 
-
-
-
-
-
-
-
-/**
- * 
- * 
- * export class CuentasTarjetasService {
-
-  // info!: CuentasTarjetas;
-  info: any = [];
-
-  constructor(private http: HttpClient) { 
-    http.get("../../../../assets/data/cuentas.json")
-    .subscribe(resp =>  {
-      this.info = resp;
-    });
-    
-  }
-
-  
-}
-
- */

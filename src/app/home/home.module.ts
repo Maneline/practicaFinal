@@ -1,8 +1,10 @@
+import { AppRoutingModule } from './../app-routing.module';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { RouterModule } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
+import { BrowserModule } from '@angular/platform-browser';
 
 // shared
 import { SharedModule } from '../shared/shared.module';
@@ -22,10 +24,10 @@ import { NavigationMenuComponent } from './menu/navigation-menu/navigation-menu.
 import { HomeSidebarComponent } from './sidebar/home-sidebar/home-sidebar.component';
 
 // bottom: 
+import { HomeDashboardComponent } from './home-dashboard.component';
+import { BottomLayoutComponent } from './bottom/bottom-layout/bottom-layout.component';
 import { BottomModule } from './bottom/bottom.module';
-import { FinanciacionComponent } from './bottom/financiacion/financiacion/financiacion.component';
-import { EurosPipe } from '../shared/pipes/euros.pipe';
-import { SaludoPipe } from '../shared/pipes/saludo.pipe';
+
 
 
 
@@ -37,26 +39,27 @@ import { SaludoPipe } from '../shared/pipes/saludo.pipe';
     DashboardSummaryComponent,
     HomeSidebarComponent,
     NavigationMenuComponent,
-    EurosPipe,
-    SaludoPipe
+    BottomLayoutComponent,
+    HomeDashboardComponent
   ],
   imports: [
     CommonModule,
-    // BottomModule,
     RouterModule,
+    BrowserModule,
     HttpClientModule,
-    SharedModule
+    SharedModule,
+    AppRoutingModule,
+    BottomModule
   ],
   exports: [
-    DashboardLayoutComponent,
     DashboardWelcomeComponent,
     DashboardFavoritesComponent,
     DashboardSummaryComponent,
     HomeSidebarComponent,
     NavigationMenuComponent,
-    EurosPipe,
-    SaludoPipe
-    // FinanciacionComponent
+    HomeDashboardComponent,
+    // BottomLayoutComponent,
+    AppRoutingModule
   ]
 })
 export class HomeModule { }

@@ -9,6 +9,7 @@ export class TopService {
     info: any = [];
 
     constructor(private http: HttpClient) {
+
         http.get("../../../../assets/data/top.json")
             .subscribe(resp => {
                 this.info = resp;

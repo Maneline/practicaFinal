@@ -14,15 +14,17 @@ import { SaludoPipe } from './pipes/saludo.pipe';
   declarations: [
     HeaderComponent,
     FooterComponent,
-    // EurosPipe,
-    // SaludoPipe
+    EurosPipe,
+    SaludoPipe
   ],
   imports: [
     CommonModule
   ],
   exports: [
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    EurosPipe,
+    SaludoPipe
   ]
 })
 export class SharedModule { }

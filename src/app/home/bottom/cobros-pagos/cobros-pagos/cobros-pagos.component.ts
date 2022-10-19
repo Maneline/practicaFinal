@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-cobros-pagos',
@@ -7,7 +8,7 @@ import { Component } from '@angular/core';
 })
 export class CobrosPagosComponent {
 
-  constructor() { }
+  constructor(private route: Router) { }
 
 
 }

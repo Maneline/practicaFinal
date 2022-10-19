@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
+
 import { SidebarInterface } from './home-sidebar.interface';
 
 @Component({
@@ -8,6 +9,7 @@ import { SidebarInterface } from './home-sidebar.interface';
     templateUrl: './home-sidebar.component.html',
     styleUrls: ['./home-sidebar.component.scss']
 })
+
 export class HomeSidebarComponent {
 
     fecha = new Date().getDate();
@@ -19,7 +21,6 @@ export class HomeSidebarComponent {
         
         this.getJSON().subscribe(data => {
             this.datos = data;
-            console.log(this.datos['actividad']);
         });
         
     }
