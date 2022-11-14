@@ -3,32 +3,35 @@
     "favorites": [
         {
             "id": 0,
-            "titulo": "Transferencias"
+            "titulo": "Mi rutina"
         },
         {
             "id": 1,
-            "titulo": "Traspasos"
+            "titulo": "Mis comidas"
         },
         {
             "id": 2,
-            "titulo": "Ficheros"
+            "titulo": "Mis notas"
         }
     ],
     "summary": [
         {
             "id": 0,
-            "titulo": "saldo-cuentas",
-            "cantidad": 153000
+            "titulo": "Último entrenamiento",
+            "clase": "ultEntrenamiento",
+            "cantidad": "Hace 1 día y 21 horas"
         },
         {
             "id": 1,
-            "titulo": "ahorro-inversion",
-            "cantidad": 100000
+            "titulo": "Duración",
+            "clase": "duracion",
+            "cantidad": "1 hora y 16 minutos"
         },
         {
             "id": 2,
-            "titulo": "financiacion",
-            "cantidad": 50000
+            "titulo": "Completado",
+            "clase": "completado",
+            "cantidad": "89 %"
         }
     ]
 

@@ -1,31 +1,31 @@
-<section class="tarjetas">
+<section class="claseGrupal">
 
-    <div class="tarjetas__title">
+    <div class="claseGrupal__title"> 
 
         <app-dashboard-filters titulo="{{ titulo }}"></app-dashboard-filters>
 
     </div>
 
-    <div class="tarjetas__resultados">
+    <div class="claseGrupal__resultados">
 
 
-        <div *ngFor="let item of Data['tarjetas']; let i = index;" class="tarjetas__resultados__card">
+        <div *ngFor="let item of Data['grupales']; let i = index;" class="claseGrupal__resultados__card">
 
-            <div class="tarjetas__resultados__card--img">
+            <div class="claseGrupal__resultados__card--img">
 
-                <img src="../../../../../assets/icons/tarjetita.png" alt="Imagen de tarjeta de crédito">
+                <img src="../../../../../assets/icons/tarjetita.png" alt="Imagen">
 
             </div> 
 
-            <div class="tarjetas__resultados__card--titular">
+            <div class="claseGrupal__resultados__card--titular">
                 <p> {{ item.titular }} </p>
             </div>
 
-            <div class="tarjetas__resultados__card--numero">
+            <div class="claseGrupal__resultados__card--numero">
                 <p> ...{{ item.codigo }} </p>
             </div>
 
-            <div class="tarjetas__resultados__card--porcentaje">
+            <div class="claseGrupal__resultados__card--porcentaje">
                 <div>
                     <p> {{ (item.dinero | currency:"EUR":"symbol") }} </p>
                     <p class="gris"> /  {{ (item.objetivo | currency:"EUR":"symbol") }} </p>

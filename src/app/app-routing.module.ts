@@ -3,46 +3,47 @@ import { RouterModule, Routes } from '@angular/router';
 
 
 import { HomeDashboardComponent } from './home/home-dashboard.component';
-import { CuentasTarjetasLayoutComponent } from './home/bottom/cuentas-tarjetas/cuentas-tarjetas-layout/cuentas-tarjetas-layout.component';
-import { FinanciacionComponent } from './home/bottom/financiacion/financiacion/financiacion.component';
-import { ComercioExteriorComponent } from './home/bottom/comercio-exterior/comercio-exterior/comercio-exterior.component';
-import { CobrosPagosComponent } from './home/bottom/cobros-pagos/cobros-pagos/cobros-pagos.component';
+import { ClasesLayoutComponent } from './home/bottom/clases/clases-layout/clases-layout.component';
+import { CentrosComponent } from './home/bottom/centros/centros/centros.component';
+import { ProgresoComponent } from './home/bottom/progreso/progreso/progreso.component';
+import { ObjetivosComponent } from './home/bottom/objetivos/objetivos/objetivos.component';
 
 
 
 
 const routes: Routes = [
     {
-      path: 'home',
+      path: '',
     //   pathMatch: 'full',
       component: HomeDashboardComponent,
       children: [
-          { path: 'financiacion', component: FinanciacionComponent },
-          { path: 'comercio', component: ComercioExteriorComponent },
-          { path: 'cobros', component: CobrosPagosComponent },
-          { path: '**', component: CuentasTarjetasLayoutComponent },
+          { path: 'centros', component: CentrosComponent },
+          { path: 'progreso', component: ProgresoComponent },
+          { path: 'objetivos', component: ObjetivosComponent },
+          { path: '**', component: ClasesLayoutComponent },
       ]
     }
   ];
+ 
 
-// const routes: Routes = [
+//   const routes: Routes = [
 //     {
-//         path: 'home',
-//         pathMatch: 'full',
-//         component: HomeDashboardComponent
-//     },
-    
-    // {
-    //     path: 'productos',
-    //     pathMatch: 'full',
-    //     component: ProductosDashboardComponent
-    // },
-    // {
-    //     path: 'operativas',
-    //     pathMatch: 'full',
-    //     component: OperativasDashboardComponent
-    // }
-// ];
+//       path: 'home',
+//       loadChildren: () => import('../app/home/home.module').then(m => m.HomeModule)
+//     }
+//     //   pathMatch: 'full',
+//     //   component: HomeDashboardComponent,
+//     //   children: [
+//     //     {
+//     //         path: 'home/cobros',
+//     //         pathMatch: 'full',
+//     //         loadChildren: () => import('../app/home/bottom/cobros-pagos/cobros-pagos/cobros-pagos.module').then(m => m.CobrosPagosModule)
+//     //     },
+
+//     //   ]
+//     // }
+//   ];
+
 
 
 @NgModule({

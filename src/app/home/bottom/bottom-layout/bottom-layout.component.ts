@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Router } from '@angular/router';
+// import { Router } from '@angular/router';
 
 @Component({
     selector: 'app-bottom-layout',
@@ -8,11 +8,11 @@ import { Router } from '@angular/router';
 })
 export class BottomLayoutComponent {
 
-    constructor(private router: Router) {
+    // constructor(private router: Router) {
 
 
-        // this.router.navigate(["cobros"]);
-        // router.navigateByUrl('home/financiacion');
+    //     // this.router.navigate(["cobros"]);
+    //     // router.navigateByUrl('home/financiacion');
 
-    }
+    // }
 }

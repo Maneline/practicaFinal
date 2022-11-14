@@ -12,5 +12,6 @@ export interface Favorite {
 export interface Summary {
     id:       number;
     titulo:   string;
-    cantidad: number;
+    clase:    string;
+    cantidad: string;
 }

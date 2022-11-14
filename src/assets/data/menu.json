@@ -2,20 +2,19 @@
     "menu": [
         {
             "id": 0,
-            "titulo": "Cuentas y tarjetas"
+            "titulo": "Clases"
         },
         {
             "id": 1,
-            "titulo": "Financiación"
+            "titulo": "Centros"
         },
         {
             "id": 2,
-            "titulo": "Comercio exterior"
+            "titulo": "Progreso"
         },
         {
             "id": 3,
-            "titulo": "Cobros y pagos"
+            "titulo": "Objetivos"
         }
     ]
-
 }

@@ -5,11 +5,27 @@ import { DashboardLayoutComponent } from './dashboard-layout/dashboard-layout.co
 
 
 const routes: Routes = [
+
+    
     {
-        path: 'home',
+        path: '',
         // pathMatch: 'full',
         component: DashboardLayoutComponent
     }
+
+
+
+
+
+
+
+
+
+
+
+
+    // INTENTANDO IMPLEMENTAR LAZY LOADING:
+
     // {
     //     path: 'home',
     //     loadChildren: () => import('../home/bottom/bottom.module').then(m => m.BottomModule)
@@ -39,8 +55,22 @@ const routes: Routes = [
     // {   path: '/comercio', component: ComercioExteriorComponent  },  
     // {   path: '/cobros', component: CobrosPagosComponent         },
     // {   path: '**', component: DashboardLayoutComponent   }
+    
 ];
 
+// const routes: Routes = [
+//     {
+//       path: 'home',
+//     //   pathMatch: 'full',
+//       component: HomeDashboardComponent,
+//       children: [
+//           { path: 'financiacion', component: FinanciacionComponent },
+//           { path: 'comercio', component: ComercioExteriorComponent },
+//           { path: 'cobros', component: CobrosPagosComponent },
+//           { path: 'cuentas', component: CuentasTarjetasLayoutComponent },
+//       ]
+//     }
+//   ];
 
 
 @NgModule({
@@ -50,4 +80,5 @@ const routes: Routes = [
     ],
     exports: [RouterModule]
 })
+
 export class HomeRoutingModule { }

@@ -1,17 +1,17 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { AppRoutingModule } from './../../../../app-routing.module';
+import { AppRoutingModule } from '../../../../app-routing.module';
 
 import { HttpClientModule } from '@angular/common/http';
-import { CobrosPagosComponent } from './cobros-pagos.component';
-import { RouterModule } from '@angular/router';
+import { ObjetivosComponent } from './objetivos.component';
+// import { RouterModule } from '@angular/router';
 
 
 
 
 @NgModule({
   declarations: [
-    CobrosPagosComponent
+    ObjetivosComponent
   ],
   imports: [
     CommonModule,
@@ -20,7 +20,7 @@ import { RouterModule } from '@angular/router';
     // RouterModule
   ],
   exports: [
-    CobrosPagosComponent
+    ObjetivosComponent
   ]
 })
-export class CobrosPagosModule { }
+export class ObjetivosModule { }

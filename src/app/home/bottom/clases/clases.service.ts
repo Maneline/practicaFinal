@@ -5,12 +5,12 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root'
 })
 
-export class CuentasTarjetasService {
+export class ClasesService {
 
   info: any = [];
 
   constructor(private http: HttpClient) { 
-    http.get("../../../../assets/data/cuentas.json")
+    http.get("../../../../assets/data/clases.json")
     .subscribe(resp =>  {
       this.info = resp;
     });

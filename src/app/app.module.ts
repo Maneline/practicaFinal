@@ -13,10 +13,9 @@ import { EurosPipe } from './shared/pipes/euros.pipe';
 import { SaludoPipe } from './shared/pipes/saludo.pipe';
 
 
+
 @NgModule({
-  declarations: [
-    AppComponent
-],
+  declarations: [AppComponent],
   imports: [
     BrowserModule,
     HttpClientModule,

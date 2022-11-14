@@ -1,6 +1,6 @@
 export interface SidebarInterface {
     actividad:   Actividad;
-    necesidades: Necesidade[];
+    necesidades: Necesidades[];
 }
 
 export interface Actividad {
@@ -11,10 +11,12 @@ export interface Actividad {
 export interface Ayer {
     id:       number;
     titulo:   string;
-    cantidad: number;
+    cantidad: string;
+    individual: boolean;
 }
 
-export interface Necesidade {
+export interface Necesidades {
     entrada: string;
     url:     string;
 }
+

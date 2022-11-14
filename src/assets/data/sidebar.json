@@ -4,97 +4,114 @@
                 "hoy": [
                         {
                                 "id": 64,
-                                "titulo": "Pago nóminas",
-                                "cantidad": -1000
+                                "titulo": "Boxeo",
+                                "cantidad": "De 19:30 a 20:30",
+                                "individual": true
                         },
                         {
                                 "id": 63,
-                                "titulo": "Beca estudiante",
-                                "cantidad": 799
+                                "titulo": "Aerobic",
+                                "cantidad": "De 19:00 a 19:30",
+                                "individual": false
                         },
                         {
                                 "id": 62,
-                                "titulo": "Devolución Hacienda",
-                                "cantidad": 25555
+                                "titulo": "CrossFit",
+                                "cantidad": "De 10:00 a 11:30",
+                                "individual": false
                         }
                 ],
 
                 "ayer": [
                         {
                                 "id": 61,
-                                "titulo": "Beca transporte",
-                                "cantidad": 100.000
+                                "titulo": "CrossFit",
+                                "cantidad": "De 17:30 a 18:30",
+                                "individual": false
                         },
                         {
                                 "id": 60,
-                                "titulo": "Recibo nómina",
-                                "cantidad": 1000000
+                                "titulo": "CrossFit",
+                                "cantidad": "De 17:30 a 18:30",
+                                "individual": true
                         },
                         {
                                 "id": 59,
-                                "titulo": "Pago nóminas",
-                                "cantidad": 23567
+                                "titulo": "CrossFit",
+                                "cantidad": "De 17:30 a 18:30",
+                                "individual": false
                         },
                         {
                                 "id": 58,
-                                "titulo": "Pago Hacienda",
-                                "cantidad": -2456
+                                "titulo": "CrossFit",
+                                "cantidad": "De 17:30 a 18:30",
+                                "individual": false
                         },
                         {
                                 "id": 57,
-                                "titulo": "Pago alquiler",
-                                "cantidad": 23567
+                                "titulo": "CrossFit",
+                                "cantidad": "De 17:30 a 18:30",
+                                "individual": false
                         },
                         {
                                 "id": 56,
-                                "titulo": "Pago nóminas",
-                                "cantidad": 12745
+                                "titulo": "CrossFit",
+                                "cantidad": "De 17:30 a 18:30",
+                                "individual": false
                         },
                         {
                                 "id": 55,
-                                "titulo": "Pago Hacienda",
-                                "cantidad": -2456
+                                "titulo": "CrossFit",
+                                "cantidad": "De 17:30 a 18:30",
+                                "individual": false
                         },
                         {
                                 "id": 54,
-                                "titulo": "Pago alquiler",
-                                "cantidad": -76553
+                                "titulo": "CrossFit",
+                                "cantidad": "De 17:30 a 18:30",
+                                "individual": false
                         },
                         {
                                 "id": 53,
-                                "titulo": "Pago nóminas",
-                                "cantidad": 23567
+                                "titulo": "CrossFit",
+                                "cantidad": "De 17:30 a 18:30",
+                                "individual": false
                         },
                         {
                                 "id": 52,
-                                "titulo": "Pago Hacienda",
-                                "cantidad": -2456
+                                "titulo": "CrossFit",
+                                "cantidad": "De 17:30 a 18:30",
+                                "individual": false
                         },
                         {
                                 "id": 51,
-                                "titulo": "Pago alquiler",
-                                "cantidad": -23567
+                                "titulo": "CrossFit",
+                                "cantidad": "De 17:30 a 18:30",
+                                "individual": false
                         },
                         {
                                 "id": 50,
-                                "titulo": "Pago nóminas",
-                                "cantidad": 34733458
+                                "titulo": "CrossFit",
+                                "cantidad": "De 17:30 a 18:30",
+                                "individual": false
                         },
                         {
                                 "id": 49,
-                                "titulo": "Pago Hacienda",
-                                "cantidad": 2456
+                                "titulo": "CrossFit",
+                                "cantidad": "De 17:30 a 18:30",
+                                "individual": false
                         },
                         {
                                 "id": 48,
-                                "titulo": "Pago alquiler",
-                                "cantidad": -23567
+                                "titulo": "CrossFit",
+                                "cantidad": "De 17:30 a 18:30",
+                                "individual": false
                         }
                 ]
 
         },
         
-        "necesidades": [
+        "tienda": [
                 {
                         "entrada": "Comprar ordenadores",
                         "url": "./src/assets/icons/compraPC.png"

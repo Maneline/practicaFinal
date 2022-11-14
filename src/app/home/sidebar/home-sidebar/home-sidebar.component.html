@@ -1,10 +1,11 @@
 <section class="actividad">
 
-        <h2> Actividad reciente </h2>
+        <h2> Próximas clases </h2>
 
         <article>
 
-                <p class="fecha"> {{ fecha }} OCT </p>
+            <!-- TO DO: Hacer que la fecha se muestre bien siempre -->
+                <p class="fecha"> {{ fecha }} NOV </p>
 
                 <ul>
 
@@ -14,13 +15,14 @@
                                 </div>
                                 <div class="pago__cantidad">
 
-                                        <p> {{ (item.cantidad | currency:"EUR":"symbol") | euros }} </p>
+                                        <!-- <p> {{ (item.cantidad | currency:"EUR":"symbol") | euros }} </p> -->
+                                        <p> {{ item.cantidad }} </p>
                                         
-                                        <img *ngIf="item.cantidad < 0 else positivo"
+                                        <img *ngIf="!item.individual else grupal"
                                                 src="../../../../assets/icons/puntitoRojo.png"
                                                 alt="Icono de punto rojo">
 
-                                        <ng-template #positivo>
+                                        <ng-template #grupal>
                                                 <img src="../../../../assets/icons/puntitoVerde.png"
                                                         alt="Icono de punto verde">
                                         </ng-template>
@@ -34,7 +36,7 @@
 
         <article>
 
-                <p class="fecha"> {{ fecha - 1 }} OCT </p>
+                <p class="fecha"> {{ fecha + 1 }} NOV </p>
 
                 <ul>
 
@@ -44,13 +46,14 @@
                                 </div>
                                 <div class="pago__cantidad">
 
-                                        <p> {{ (item.cantidad | currency:"EUR":"symbol") | euros }} </p>
+                                        <!-- <p> {{ (item.cantidad | currency:"EUR":"symbol") | euros }} </p> -->
+                                        <p> {{ item.cantidad }} </p>
                                         
-                                        <img *ngIf="item.cantidad < 0 else positivo"
+                                        <img *ngIf="!item.individual else grupal"
                                                 src="../../../../assets/icons/puntitoRojo.png"
                                                 alt="Icono de punto rojo">
 
-                                        <ng-template #positivo>
+                                        <ng-template #grupal>
                                                 <img src="../../../../assets/icons/puntitoVerde.png"
                                                         alt="Icono de punto verde">
                                         </ng-template>
@@ -67,7 +70,7 @@
 
 <section class="necesidades">
 
-        <h2> Necesidades </h2>
+        <h2> Tienda </h2>
 
         <article>
 

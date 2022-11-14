@@ -1,22 +1,22 @@
 import { Component } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
-import { CuentasTarjetas } from '../cuentas-tarjetas-layout/cuentas-tarjetas.interface';
+import { Clases } from '../clases-layout/clases-layout.interface';
 
 @Component({
-    selector: 'app-accounts-section',
-    templateUrl: './accounts-section.component.html',
-    styleUrls: ['./accounts-section.component.scss'],
+    selector: 'app-clases-individuales',
+    templateUrl: './clases-individuales.component.html',
+    styleUrls: ['./clases-individuales.component.scss'],
 })
 
-export class AccountsSectionComponent {
+export class ClasesIndividualesComponent {
 
-    titulo: string = 'Cuentas';
+    titulo: string = 'Clases individuales';
     layout: string = 'flex';
     imagen: string = '../../../../../assets/icons/flexMode.png';
-    datos!: CuentasTarjetas;
+    datos!: Clases;
 
-    private _jsonURL = '../../../../../assets/data/cuentas.json';
+    private _jsonURL = '../../../../../assets/data/clases.json';
 
     constructor(private http: HttpClient) {
 
@@ -26,7 +26,7 @@ export class AccountsSectionComponent {
 
     }
 
-    get Data(): CuentasTarjetas {
+    get Data(): Clases {
         return this.datos;
     }
 

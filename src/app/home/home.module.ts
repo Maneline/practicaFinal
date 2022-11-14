@@ -27,6 +27,7 @@ import { HomeSidebarComponent } from './sidebar/home-sidebar/home-sidebar.compon
 import { HomeDashboardComponent } from './home-dashboard.component';
 import { BottomLayoutComponent } from './bottom/bottom-layout/bottom-layout.component';
 import { BottomModule } from './bottom/bottom.module';
+import { HomeRoutingModule } from './home-routing.module';
 
 
 
@@ -49,7 +50,8 @@ import { BottomModule } from './bottom/bottom.module';
     HttpClientModule,
     SharedModule,
     AppRoutingModule,
-    BottomModule
+    BottomModule,
+    HomeRoutingModule
   ],
   exports: [
     DashboardWelcomeComponent,

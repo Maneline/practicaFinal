@@ -1,67 +1,64 @@
 <div class="contenedor">
 
-        <div class="parteIzquierda">
+    <div class="parteIzquierda">
 
-                <!-- top -->
-                <section class="top">
+        <!-- top -->
+        <section class="top">
 
-                        <div class="superior">
-   
-                                <article class="welcome">
+            <div class="superior">
 
-                                        <app-dashboard-welcome></app-dashboard-welcome>
+                <article class="welcome">
 
-                                </article>
+                    <app-dashboard-welcome></app-dashboard-welcome>
 
-                                <article class="favorites">
+                </article>
 
-                                        <app-dashboard-favorites></app-dashboard-favorites>
+                <article class="favorites">
 
-                                </article>
+                    <app-dashboard-favorites></app-dashboard-favorites>
 
-                        </div>
+                </article>
 
-                        <article class="summary">
+            </div>
 
-                                <app-dashboard-summary></app-dashboard-summary>
+            <article class="summary">
 
-                        </article>    
+                <app-dashboard-summary></app-dashboard-summary>
 
-                </section>
- 
+            </article>
 
-                <!-- menu -->
-                <section class="menu">
-
-                        <app-navigation-menu></app-navigation-menu>
-
-                </section>
+        </section>
 
 
-                <!-- bottom: -->
-                <section class="bottom">
+        <!-- menu -->
+        <section class="menu">
 
-                        <!-- <router-outlet></router-outlet> -->
+            <app-navigation-menu></app-navigation-menu>
 
-                        <app-bottom-layout></app-bottom-layout>
-
-                        <!-- <h1>hola</h1>
-                        <h1>hola</h1> -->
-
-                </section>
-
-        </div>
+        </section>
 
 
-        <div class="parteDerecha">
+        <!-- bottom: -->
+        <section class="bottom">
 
-                <!-- sidebar -->
-                <aside class="sidebar">
-                        
-                        <app-home-sidebar></app-home-sidebar>
-                        
-                </aside>
-                
-        </div>
+            <!-- <router-outlet></router-outlet> -->
+
+            <app-bottom-layout></app-bottom-layout>
+
+        </section>
+
+    </div>
+
+
+    <div class="parteDerecha">
+
+        <!-- sidebar -->
+        <aside class="sidebar">
+
+            <app-home-sidebar></app-home-sidebar>
+
+        </aside>
+
+    </div>
 
 </div>
